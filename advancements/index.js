@@ -2,9 +2,9 @@ let fs = require('fs');
 let start = Date.now()
 
 //Read first file
-let olddata_reader = fs.readFileSync('./oldadvancement.json', { encoding: 'utf8' })
+let olddata_reader = fs.readFileSync('./advancements_1.json', { encoding: 'utf8' })
 //Read second file
-let newdata_reader = fs.readFileSync('./newadvancement.json', { encoding: 'utf8' })
+let newdata_reader = fs.readFileSync('./advancements_2.json', { encoding: 'utf8' })
 
 let olddata_raw = olddata_reader
 let newdata_raw = newdata_reader
