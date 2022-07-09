@@ -1,7 +1,7 @@
 # minejson
 Convert your solo world's stats/advancements to JSON ✨
 
-## Want to combine your advancements?
+## Want to combine your stats?
 1. Download `index.js` and copy it to folder* you want
 2. Run Terminal Application (like command prompt/powershell)
 3. Go to the `*index.js`'s folder on Terminal
@@ -20,3 +20,5 @@ Convert your solo world's stats/advancements to JSON ✨
 6. Then run `node .` command in `*index.js`'s folder directory
 7. And a file will be created with `minejson_advancements.json` name, open that and copy everything in the inside of it
 8. And paste it to your latest advancements json, that's it!
+
+Written and tested in NodeJS version 18.1
