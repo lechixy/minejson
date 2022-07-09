@@ -1,12 +1,11 @@
 # minejson
 Convert your solo world's stats/advancements to JSON ✨
 
-## How it works?
-- Download node.js and the project. 
-- Run Terminal Application (like command prompt/powershell)
-- Go to the project folder on Terminal
-- Just choose which folder is your need!
-- `cd stats` for stats json converter and `cd advancements` for advancement json converter
-- Copy your old account's and new account's json to that folder then rename old account's json to "oldstats.json" and for new account's json "newstats.json"
-- ⚠️ Don't change the name of the new account's json we'll need that later! (it is your player UUID, don't change it)
-- Rename 
+## Do you want to combine your stats?
+ 1. Run Terminal Application (like command prompt/powershell)
+ 2. Go to the stats folder on Terminal
+ 3. Open`.minecraft/saves/yourworldtojson/stats` in file explorer
+ 4. Select your 2 json's to you wanna combine and copy to stats folder then change one of them's name to `stats_1.json` and another one to `stats_2.json`
+ 5. Then run `node .` command in stats directory
+ 6. And a file will be created with `minejson_stats.json` name, open that and copy everything in the inside of it
+ 7. And paste it to your latest stats json, that's it!
