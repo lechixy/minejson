@@ -1,5 +1,5 @@
 # minejson
-Convert your solo world's stats/advancements to JSON ✨
+Combine your solo world's stats/advancements to each other ✨
 
 ## Want to combine your stats?
 1. Download `index.js` and copy it to folder* you want
